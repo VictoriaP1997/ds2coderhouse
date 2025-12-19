@@ -12,3 +12,7 @@ Se comprobará cual de las variables tiene más incidencia en los eventos de fal
 Posteriormente, se desarrollará un modelo de machine learning para saber si fallará o no frente a nuevos valores de variables físicas.
 
 Una vez obtenido el modelo de predicción se optimizará el modelo de Random Forest con GridSearchCV
+
+## Resultados
+Se encontró efectivamente que la variable que más incide sobre la falla de Turbinas, son las vibraciones del equipamiento.
+Desde el punto de vista mecánico esto se justifica por el hecho de que si en un equipo rotante está desalineado, el equipo presentará vibraciones que causarán mayor desgaste en el punto de contacto entre las partes estáticas y las partes móviles. LLegando así a la falla del equipamiento.
